@@ -55,43 +55,87 @@
    
 
 
-    .tit-box:nth-child(3){background-color: #000;}
-    .tit-box h2.ts-tit3{color: #000;
-    text-shadow: 0 0 1px #777, 0 0 20px #fff, 0 0 30px, #fff,
-    0 0 40px#ff00de, 0 0 60px #ff00de, 0 0 80px #ff00de,
-    0 0 100px #ff00de, 0 0 110px #ff00de;}
+    .ts { clear:both; width: 100%; }
+    .tit-box { width: 900px; height: 100px; line-height: 100px; 
+    text-align: center; }
+    .tit-box h2 { font-size:60px; color:deepskyblue; }
+    .ts-tit1 { text-shadow: 3px 3px #0c4569, -3px -3px #b4dffa;}
+    .ts-tit2 { text-shadow: -3px -3px #0c4569, 3px 3px #b4dffa;}
+    .tit-box:nth-child(3) { background-color:#fff; }
+    .tit-box h2.ts-tit3 { color:#000; 
+        text-shadow: 2px 2px 0px #eee, 4px 4px 0px #000; }
 
-    .tit-box:nth-child(4){background-color: #000;}
-    .tit-box h2.ts-tit4{color: #fff;
-    text-shadow: 0 0 1px #777, 0 0 20px #fff, 0 0 30px, #fff,
-    0 0 40px#ff00de, 0 0 60px #ff00de, 0 0 80px #ff00de,
-    0 0 100px #ff00de, 0 0 110px #ff00de;}
+    .tit-box:nth-child(4) { background-color: #000; }
+    .tit-box h2.ts-tit4 { color:#fff; 
+    text-shadow: 0 0 1px #fff, 0 0 20px #fff, 0 0 30px #fff,
+     0 0 40px #ff00de, 0 0 60px #ff00de, 0 0 80px #ff00de,
+      0 0 100px #ff00de, 0 0 110px #ff00de; } 
 
-    .tit-box h2.ts-tit5 {text-shadow:-1px 0 black, 0 1px black,1px 0 black, 0 -1px black; color:#fff;}    
-    .tit-box:nth-child(6){background-color: #565656;}
-    .tit-box h2.ts-tit6{color: 333;
-    text-shadow: 0 1px 0 #777, 0 -1px 0 #000;}
-    .tit-box:nth-child(7){background-color: navy;}
-    .tit-box h2.ts-tit7{font-family: 'staatliches', cursive;
-    color: #f1c164; text-shadow: 5px 5px #2d63a7;}
+    .tit-box h2.ts-tit5 { text-shadow: -1px 0 black, 0 1px black, 
+    1px 0 black, 0 -1px black; color:#fff; }  
 
-    .tit-box:nth-child(8){background-color: navy;}
-    .tit-box h2.ts-tit8{font-family: 'staatliches', cursive;
-    color: #f1c164; text-shadow: 5px 5px #2d63a7;
-    text-decoration: overline; text-decoration-style: wavy;}
-
-    .tit-box h2.ts-tit9{text-shadow: 1px 1px 0px #0c4569,
-        2px 2px 0px #0c4569,3px 3px 0px #0a3b5a
-        ,4px 4px 0px #0a3b5a,5px 5px 0px #072a40
-        ,6px 6px 0px #072a40,7px 7px 0px #03141e
-        ,8px 8px 0px #031412,9px 9px 0px #010507,
-        10px 10px 0px #010507;
+    .tit-box:nth-child(6) { background-color: #565656; }
+    .tit-box h2.ts-tit6 {   color: #333;
+          text-shadow: 0 1px 0 #777, 0 -1px 0 #000; }
     
+    .tit-box:nth-child(7) { background-color:navy; }
+    .tit-box h2.ts-tit7 { font-family: 'Staatliches', cursive; 
+    color: #F1C164;  text-shadow: 5px 5px #2D63A7; } 
+
+    .tit-box:nth-child(8) { background-color:navy; }
+    .tit-box h2.ts-tit8 { padding-top: 20px; font-family: 'Staatliches', cursive; 
+    color: #F1C164;  text-shadow: 5px 5px #2D63A7; 
+    text-decoration: overline; text-decoration-style: wavy; } 
+
+    .tit-box h2.ts-tit9 { text-shadow:1px 1px 0px #0c4569, 
+        2px 2px 0px #0c4569, 3px 3px 0px #0a3b5a, 
+        4px 4px 0px #0a3b5a, 5px 5px 0px #072a40,
+        6px 6px 0px #072a40, 7px 7px 0px #03141e, 
+        8px 8px 0px #03141e, 9px 9px 0px #010507,
+        10px 10px 0px #010507;
     }
+
+    .tit-box h2.ts-tit10 { text-shadow: none; transition:0.6s; }
+    .tit-box h2.ts-tit10:hover { text-shadow:1px 1px 0px #0c4569, 
+        2px 2px 0px #0c4569, 3px 3px 0px #0a3b5a, 
+        4px 4px 0px #0a3b5a, 5px 5px 0px #072a40,
+        6px 6px 0px #072a40, 7px 7px 0px #03141e, 
+        8px 8px 0px #03141e, 9px 9px 0px #010507,
+        10px 10px 0px #010507; }
+
+    .bs { clear:both; }
+    .bs-box { width:auto; clear:both; padding: 40px; }
+    .bs-box span { display:block; width: 100px; height: 100px; 
+    line-height: 100px; text-align: center; }
+    .bs1 { background-color:deepskyblue;
+         box-shadow:10px 10px 0px #0c4569;  }
+    .bs2 { background-color:deepskyblue;
+         box-shadow:10px 10px 10px #0c4569;  }
+    .bs3 { background-color:deepskyblue;
+         box-shadow:1px 1px 0px #0c4569, 
+        2px 2px 0px #0c4569, 3px 3px 0px #0a3b5a, 
+        4px 4px 0px #0a3b5a, 5px 5px 0px #072a40,
+        6px 6px 0px #072a40, 7px 7px 0px #03141e, 
+        8px 8px 0px #03141e, 9px 9px 0px #010507,
+        10px 10px 0px #010507; }
+    .bs4 { border-radius:50%; background-color:deepskyblue;
+         box-shadow:10px 10px 0px #0c4569;  }
+    .bs5 { border-radius:50px; background-color:deepskyblue;
+         box-shadow:10px 10px 10px #0c4569;  }
+    .bs6 { border-radius:50px; background-color:deepskyblue;
+         box-shadow:1px 1px 0px #0c4569, 
+        2px 2px 0px #0c4569, 3px 3px 0px #0a3b5a, 
+        4px 4px 0px #0a3b5a, 5px 5px 0px #072a40,
+        6px 6px 0px #072a40, 7px 7px 0px #03141e, 
+        8px 8px 0px #03141e, 9px 9px 0px #010507,
+        10px 10px 0px #010507; }
+
+    
+    
    </style>
 </head>
 <body>
-    <div id="canvs">
+    <div id="canvas">
         <article class="mouse">
             <li class="alias"></licl></li> <!--바로가기 모양-->
             <li class="all-scroll">모양2</li>
@@ -179,10 +223,23 @@
                 <h2 class="ts-tit10">Lorem Ipsum</h2>
             </div>
         </article>
+        <br> <hr> <br> 
+        <article class="bs">
+            <div class="bs-box"><span class="bs1">BOX1</span></div>
+            <div class="bs-box"><span class="bs2">BOX2</span></div>
+            <div class="bs-box"><span class="bs3">BOX3</span></div>
+            <div class="bs-box"><span class="bs4">BOX4</span></div>
+            <div class="bs-box"><span class="bs5">BOX5</span></div>
+            <div class="bs-box"><span class="bs6">BOX6</span></div>
+            <div id="bs-box7"><span class="bs7" id="bs7">BOX7</span></div>
+            <div class="bs-box"><span class="bs8">BOX8</span></div>
+            <div class="bs-box"><span class="bs9">BOX9</span></div>
+            <div class="bs-box"><span class="bs10">BOX10</span></div>
+        </article>
     </div>
     
-    <div>
-    <h1>기타 속성</h1>
+    <div id="con">
+    <h1>목록 속성</h1>
     <p>list style : type position image</p>
     <p>메뉴나 목록의 기호를 표시하는 속성</p>
     <br><hr><br>
